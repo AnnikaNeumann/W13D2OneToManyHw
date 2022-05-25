@@ -1,11 +1,10 @@
 package com.codeclan.example.Folders.models;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "files")
+@Table(name = "movie_files")
 
 public class File {
 

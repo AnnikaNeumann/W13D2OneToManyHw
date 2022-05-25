@@ -19,7 +19,7 @@ public class Folder {
     private String title;
 
     @ManyToOne
-    @JoinColumns(name ="user_id", nullable = false)
+    @JoinColumn(name ="user_id", nullable = false)
     private User user;
 
     @OneToMany(mappedBy = "folder", fetch = FetchType.LAZY)
